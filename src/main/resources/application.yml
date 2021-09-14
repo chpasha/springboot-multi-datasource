@@ -1,0 +1,12 @@
+app:
+  datasource1:
+    url: jdbc:postgresql://localhost:5432/postgres
+    driverClassname: org.postgresql.Driver
+    username: dbuser
+    password: dbpass
+
+  datasource2:
+    url: jdbc:h2:mem:2db
+    driverClassname: org.h2.Driver
+    username: SA
+    password:
